@@ -50,7 +50,7 @@ const About: React.FC<AboutProps> = ({ isDarkMode }) => {
           className='flex-1'
         >
           <p className='mb-10 max-w-2xl font-Ovo'>
-          I’m a data scientist with a strong builder mindset. Over the past 6 years, I’ve worked across the full stack—from digging into data and training models to deploying full AI-powered applications. My experience spans industries, tools, and cultures, shaped by working in both China and the U.S.
+          I&apos;m a data scientist with a strong builder mindset. Over the past 6 years, I&apos;ve worked across the full stack—from digging into data and training models to deploying full AI-powered applications. My experience spans industries, tools, and cultures, shaped by working in both China and the U.S.
           </p>
 
           <motion.ul

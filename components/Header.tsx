@@ -20,7 +20,7 @@ const Header: React.FC<HeaderProps> = ({ isDarkMode }) => {
         transition={{ duration: 0.6, delay: 0.3 }}
         className='flex items-end gap-2 text-xl md:text-2xl mb-3 font-Ovo'
       >
-        Hi! I'm Peiwen Tang <Image src={assets.hand_icon} alt='' className='w-6'/>
+        Hi! I&apos;m Peiwen Tang <Image src={assets.hand_icon} alt='' className='w-6'/>
       </motion.h3>
       <motion.h1 
         initial={{ y: -30, opacity: 0 }}
@@ -38,7 +38,7 @@ const Header: React.FC<HeaderProps> = ({ isDarkMode }) => {
         className='max-w-2xl mx-auto font-Ovo'
       >
         {/* I am a data scientist, with 6 years of experience turning ideas into full-stack and AI-driven solutions across industries and cultures. */}
-        I’m a data scientist with 6 years of cross-industry experience, bridging diverse domains and cultures through work across both China and the U.S.
+        I&apos;m a data scientist with 6 years of cross-industry experience, bridging diverse domains and cultures through work across both China and the U.S.
       </motion.p>
 
       <div className='flex flex-col sm:flex-row items-center gap-4 mt-4'>
