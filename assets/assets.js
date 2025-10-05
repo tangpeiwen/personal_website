@@ -38,7 +38,6 @@ import google_cloud from './google-cloud.svg';
 import docker from './docker.svg';
 import vercel from './vercel.svg';
 import fastapi from './fastapi.svg';
-import supabase from './supabase.png';
 
 export const assets = {
     user_image,
@@ -51,7 +50,6 @@ export const assets = {
     vscode,
     git,
     mongodb,
-    supabase,
     right_arrow_white,
     logo,
     logo_dark,
@@ -121,5 +119,5 @@ export const infoList = [
 ];
 
 export const toolsData = [
-    assets.vscode, assets.flutter, assets.mongodb,assets.supabase, assets.git,assets.google_cloud,assets.docker, assets.vercel, assets.fastapi
+    assets.vscode, assets.flutter, assets.mongodb, assets.git, assets.google_cloud, assets.docker, assets.vercel, assets.fastapi
 ];
