@@ -8,6 +8,8 @@ import Navbar from "@/components/Navbar";
 // import Services from "@/components/Services";
 import Work from "@/components/Work";
 import Gallery from "@/components/Gallery";
+import ImageUpload from "@/components/ImageUpload";
+import ImageGallery from "@/components/ImageGallery";
 import type { DarkModeProps, NavbarProps } from "@/types";
 import type { ReactElement } from "react";
 
@@ -40,6 +42,8 @@ export default function Home(): ReactElement {
       {/* <Services isDarkMode={isDarkMode} /> */}
       <Work isDarkMode={isDarkMode} />
       <Gallery isDarkMode={isDarkMode} />
+      <ImageUpload isDarkMode={isDarkMode} />
+      <ImageGallery isDarkMode={isDarkMode} />
       <Contact isDarkMode={isDarkMode} />
       <Footer isDarkMode={isDarkMode} />
     </>
